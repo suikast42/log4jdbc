@@ -1,0 +1,1246 @@
+Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T09:58:13+02:00)
+Maven home: C:\dev\Marco\apache-maven-3.5.2\bin\..
+Java version: 1.8.0_144, vendor: Oracle Corporation
+Java home: C:\dev\Marco\jdk1.8.0_144\jre
+Default locale: fr_FR, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\dev\Marco\apache-maven-3.5.2\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\M09566\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\dev\Marco\apache-maven-3.5.2\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\M09566\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\dev\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\dev\repository
+[INFO] Scanning for projects...
+[DEBUG] Using mirror UK (http://uk.maven.org/maven2) for central (https://repo.maven.apache.org/maven2).
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:root:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:parent:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:parent-java3:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:core:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-api:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-impl:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-impl-format-query:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-driver:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-utils:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-api:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java3:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java5:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc.utils:log4jdbc-dummy:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:modules:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:logger:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:file:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-core:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-default:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-remote:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-stacktrace:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-extra:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:rdbms:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-rdbms:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:package:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-file:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-file-extra:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:extended:pom:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project com.github.marcosemiao.log4jdbc:log4jdbc-marshaller:jar:0.2.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Log4Jdbc Core Driver
+[INFO] Log4Jdbc Core Utils Dummy
+[INFO] Log4Jdbc Core Utils
+[INFO] Log4Jdbc Core
+[INFO] Log4Jdbc Modules Logger File Core
+[INFO] Log4Jdbc Modules Logger File Default
+[INFO] Log4Jdbc Modules Logger File StackTrace
+[INFO] Log4Jdbc Extended Remote Marshaller
+[INFO] Log4Jdbc Modules Logger File Remote
+[INFO] Log4Jdbc Modules Logger File Extra
+[INFO] Log4Jdbc Modules Logger File
+[INFO] Log4Jdbc Modules
+[INFO] Log4Jdbc Modules Logger
+[INFO] Log4Jdbc Modules Rdbms Standard
+[INFO] Log4Jdbc Modules Rdbms
+[INFO] Log4Jdbc Package Log4Jdbc
+[INFO] Log4Jdbc Package Log4Jdbc File
+[INFO] Log4Jdbc Package Log4Jdbc File Extra
+[INFO] Log4Jdbc Package
+[INFO] Log4Jdbc Extended
+[INFO] Log4Jdbc Root
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-driver:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc.utils:log4jdbc-dummy:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-utils:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:core:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-core:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-default:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-stacktrace:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-marshaller:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-remote:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-logger-file-extra:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:file:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:modules:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:logger:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-rdbms:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:rdbms:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-file:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:log4jdbc-file-extra:jar:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:package:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:extended:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: com.github.marcosemiao.log4jdbc:root:pom:0.2.1-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Log4Jdbc Core Driver 0.2.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.github.marcosemiao.log4jdbc:log4jdbc-driver:0.2.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [bpi (http://sources.cepme150.fr/repo/repository/all, default, releases+snapshots), UK (http://uk.maven.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [bpi.plugins (http://sources.cepme150.fr/repo/repository/all, default, releases+snapshots), UK (http://uk.maven.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.zeroturnaround:jrebel-maven-plugin:1.1.7:generate (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addResourcesDirToRebelXml default-value="false"/>
+  <alwaysGenerate default-value="false"/>
+  <classesDirectory>${project.build.outputDirectory}</classesDirectory>
+  <execution default-value="${mojoExecution}"/>
+  <generateDefaultClasspath default-value="true"/>
+  <generateDefaultElements default-value="true"/>
+  <generateDefaultWeb default-value="true"/>
+  <packaging>${project.packaging}</packaging>
+  <project>${project}</project>
+  <rebelXmlDirectory default-value="${project.build.outputDirectory}">${rebel.xml.dir}</rebelXmlDirectory>
+  <relativePath default-value="."/>
+  <rootPath default-value="${basedir}"/>
+  <showGenerated default-value="false">${rebel.generate.show}</showGenerated>
+  <skip default-value="false"/>
+  <warSourceDirectory>${basedir}/src/main/webapp</warSourceDirectory>
+  <webappDirectory>${project.build.directory}/${project.build.finalName}</webappDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerArguments>
+    <bootclasspath>${settings.localRepository}\com\github\marcosemiao\log4jdbc\utils\log4jdbc-dummy\0.2.1-SNAPSHOT\log4jdbc-dummy-0.2.1-SNAPSHOT.jar</bootclasspath>
+  </compilerArguments>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>1.3</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>C:\Perso\dev\jdk1.3\bin\javac.exe</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">true</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">true</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">true</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">true</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>-Dlog4jdbc.log.level.fr=DEBUG</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.0.2:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-source-plugin:3.0.1:jar-no-fork (attach-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attach default-value="true">${maven.source.attach}</attach>
+  <classifier default-value="sources">${maven.source.classifier}</classifier>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <excludeResources default-value="false">${maven.source.excludeResources}</excludeResources>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.source.forceCreation}</forceCreation>
+  <includePom default-value="false">${maven.source.includePom}</includePom>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <session default-value="${session}"/>
+  <skipSource default-value="false">${maven.source.skip}</skipSource>
+  <useDefaultExcludes default-value="true">${maven.source.useDefaultExcludes}</useDefaultExcludes>
+  <useDefaultManifestFile default-value="false">${maven.source.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-javadoc-plugin:2.10.4:jar (attach-javadocs)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalJOption>${additionalJOption}</additionalJOption>
+  <additionalparam>${additionalparam}</additionalparam>
+  <aggregate default-value="false">${aggregate}</aggregate>
+  <applyJavadocSecurityFix default-value="true">${maven.javadoc.applyJavadocSecurityFix}</applyJavadocSecurityFix>
+  <attach default-value="true">${attach}</attach>
+  <author default-value="true">${author}</author>
+  <bootclasspath>${bootclasspath}</bootclasspath>
+  <bootclasspathArtifacts>${bootclasspathArtifacts}</bootclasspathArtifacts>
+  <bottom default-value="Copyright &amp;#169; {inceptionYear}&amp;#x2013;{currentYear} {organizationName}. All rights reserved.">${bottom}</bottom>
+  <breakiterator default-value="false">${breakiterator}</breakiterator>
+  <charset>${charset}</charset>
+  <classifier default-value="javadoc">${maven.javadoc.classifier}</classifier>
+  <debug default-value="false">${debug}</debug>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <destDir>${destDir}</destDir>
+  <detectJavaApiLink default-value="true">${detectJavaApiLink}</detectJavaApiLink>
+  <detectLinks default-value="false">${detectLinks}</detectLinks>
+  <detectOfflineLinks default-value="true">${detectOfflineLinks}</detectOfflineLinks>
+  <docencoding default-value="${project.reporting.outputEncoding}">${docencoding}</docencoding>
+  <docfilessubdirs default-value="false">${docfilessubdirs}</docfilessubdirs>
+  <doclet>${doclet}</doclet>
+  <docletArtifact>${docletArtifact}</docletArtifact>
+  <docletArtifacts>${docletArtifacts}</docletArtifacts>
+  <docletPath>${docletPath}</docletPath>
+  <doctitle default-value="${project.name} ${project.version} API">${doctitle}</doctitle>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <excludePackageNames>${excludePackageNames}</excludePackageNames>
+  <excludedocfilessubdir>${excludedocfilessubdir}</excludedocfilessubdir>
+  <extdirs>${extdirs}</extdirs>
+  <failOnError default-value="true">${maven.javadoc.failOnError}</failOnError>
+  <finalName>${project.build.finalName}</finalName>
+  <footer>${footer}</footer>
+  <groups>${groups}</groups>
+  <header>${header}</header>
+  <helpfile>${helpfile}</helpfile>
+  <includeDependencySources default-value="false"/>
+  <includeTransitiveDependencySources default-value="false"/>
+  <isOffline default-value="${settings.offline}"/>
+  <jarOutputDirectory>${project.build.directory}</jarOutputDirectory>
+  <javaApiLinks>${javaApiLinks}</javaApiLinks>
+  <javadocDirectory default-value="${basedir}/src/main/javadoc"/>
+  <javadocExecutable>${javadocExecutable}</javadocExecutable>
+  <javadocOptionsDir default-value="${project.build.directory}/javadoc-bundle-options"/>
+  <javadocVersion>${javadocVersion}</javadocVersion>
+  <keywords default-value="false">${keywords}</keywords>
+  <links>${links}</links>
+  <linksource default-value="false">${linksource}</linksource>
+  <localRepository>${localRepository}</localRepository>
+  <locale>${locale}</locale>
+  <maxmemory>${maxmemory}</maxmemory>
+  <minmemory>${minmemory}</minmemory>
+  <nocomment default-value="false">${nocomment}</nocomment>
+  <nodeprecated default-value="false">${nodeprecated}</nodeprecated>
+  <nodeprecatedlist default-value="false">${nodeprecatedlist}</nodeprecatedlist>
+  <nohelp default-value="false">${nohelp}</nohelp>
+  <noindex default-value="false">${noindex}</noindex>
+  <nonavbar default-value="false">${nonavbar}</nonavbar>
+  <nooverview default-value="false">${nooverview}</nooverview>
+  <noqualifier>${noqualifier}</noqualifier>
+  <nosince default-value="false">${nosince}</nosince>
+  <notimestamp default-value="false">${notimestamp}</notimestamp>
+  <notree default-value="false">${notree}</notree>
+  <offlineLinks>${offlineLinks}</offlineLinks>
+  <old default-value="false">${old}</old>
+  <outputDirectory default-value="${project.build.directory}/apidocs">${destDir}</outputDirectory>
+  <overview default-value="${basedir}/src/main/javadoc/overview.html">${overview}</overview>
+  <packagesheader>${packagesheader}</packagesheader>
+  <project default-value="${project}"/>
+  <proxyHost>${proxyHost}</proxyHost>
+  <proxyPort>${proxyPort}</proxyPort>
+  <quiet default-value="false">true</quiet>
+  <reactorProjects>${reactorProjects}</reactorProjects>
+  <remoteRepositories>${project.remoteArtifactRepositories}</remoteRepositories>
+  <resourcesArtifacts>${resourcesArtifacts}</resourcesArtifacts>
+  <serialwarn default-value="false">${serialwarn}</serialwarn>
+  <session default-value="${session}"/>
+  <settings default-value="${settings}"/>
+  <show default-value="protected">${show}</show>
+  <skip default-value="false">${maven.javadoc.skip}</skip>
+  <source>${source}</source>
+  <sourceDependencyCacheDir default-value="${project.build.directory}/distro-javadoc-sources"/>
+  <sourcepath>${sourcepath}</sourcepath>
+  <sourcetab>${sourcetab}</sourcetab>
+  <splitindex default-value="false">${splitindex}</splitindex>
+  <stylesheet default-value="java">${stylesheet}</stylesheet>
+  <stylesheetfile>${stylesheetfile}</stylesheetfile>
+  <subpackages>${subpackages}</subpackages>
+  <taglet>${taglet}</taglet>
+  <tagletArtifact>${tagletArtifact}</tagletArtifact>
+  <tagletArtifacts>${tagletArtifacts}</tagletArtifacts>
+  <tagletpath>${tagletpath}</tagletpath>
+  <taglets>${taglets}</taglets>
+  <tags>${tags}</tags>
+  <top>${top}</top>
+  <use default-value="true">${use}</use>
+  <useDefaultManifestFile default-value="false"/>
+  <useStandardDocletOptions default-value="true">${useStandardDocletOptions}</useStandardDocletOptions>
+  <validateLinks default-value="false">${validateLinks}</validateLinks>
+  <verbose default-value="false">${verbose}</verbose>
+  <version default-value="true">${version}</version>
+  <windowtitle default-value="${project.name} ${project.version} API">${windowtitle}</windowtitle>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:3.0.2:test-jar (test-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classifier default-value="tests"/>
+  <finalName default-value="${project.build.finalName}"/>
+  <forceCreation default-value="false">${maven.jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <skipIfEmpty default-value="false"/>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-dependency-plugin:3.0.0:analyze-only (analyze-only)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <analyzer default-value="default">${analyzer}</analyzer>
+  <baseDir default-value="${basedir}"/>
+  <failOnWarning default-value="false">true</failOnWarning>
+  <ignoreNonCompile default-value="false">true</ignoreNonCompile>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <outputXML default-value="false">${outputXML}</outputXML>
+  <project default-value="${project}"/>
+  <scriptableFlag default-value="$$$%%%">${scriptableFlag}</scriptableFlag>
+  <scriptableOutput default-value="false">${scriptableOutput}</scriptableOutput>
+  <skip default-value="false">${mdep.analyze.skip}</skip>
+  <verbose default-value="false">${verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-api:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-api:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:parent-java3:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:parent:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-api:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-api:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java3:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java3:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java5:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java5:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-impl:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-impl:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-impl-format-query:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Failure to find com.github.marcosemiao.log4jdbc:log4jdbc-impl-format-query:0.2.1-SNAPSHOT/maven-metadata.xml in http://sources.cepme150.fr/repo/repository/all was cached in the local repository, resolution will not be reattempted until the update interval of bpi has elapsed or updates are forced
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1274526, ConflictMarker.markTime=576152, ConflictMarker.nodeCount=29, ConflictIdSorter.graphTime=823165, ConflictIdSorter.topsortTime=557545, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5742267, ConflictResolver.conflictItemCount=28, DefaultDependencyCollector.collectTime=147851494, DefaultDependencyCollector.transformTime=12035983}
+[DEBUG] com.github.marcosemiao.log4jdbc:log4jdbc-driver:jar:0.2.1-SNAPSHOT
+[DEBUG]    com.github.marcosemiao.log4jdbc:log4jdbc-api:jar:0.2.1-SNAPSHOT:compile
+[DEBUG]       com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-api:jar:0.2.1-SNAPSHOT:compile
+[DEBUG]    com.github.marcosemiao.log4jdbc:log4jdbc-impl:jar:0.2.1-SNAPSHOT:compile
+[DEBUG]    com.github.marcosemiao.log4jdbc:log4jdbc-impl-format-query:jar:0.2.1-SNAPSHOT:compile
+[DEBUG]    com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons:jar:0.2.1-SNAPSHOT:compile
+[DEBUG]       com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java3:jar:0.2.1-SNAPSHOT:runtime
+[DEBUG]       com.github.marcosemiao.log4jdbc.utils:log4jdbc-commons-java5:jar:0.2.1-SNAPSHOT:runtime
+[DEBUG]    com.github.marcosemiao.util:service-provider:jar:1.0.0:compile
+[DEBUG]    com.github.marcosemiao:extend-lang:jar:0.0.1:compile
+[DEBUG]    junit:junit:jar:4.12:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[DEBUG]    com.h2database:h2:jar:1.3.176:test
+[DEBUG]    org.postgresql:postgresql:jar:9.4.1207.jre7:test
+[DEBUG]    mysql:mysql-connector-java:jar:5.1.38:test
+[DEBUG]    javax.transaction:jta:jar:1.1:provided
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ log4jdbc-driver ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=125753, ConflictMarker.markTime=103296, ConflictMarker.nodeCount=15, ConflictIdSorter.graphTime=33363, ConflictIdSorter.topsortTime=23418, ConflictIdSorter.conflictIdCount=13, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=856849, ConflictResolver.conflictItemCount=15, DefaultDependencyCollector.collectTime=151647164, DefaultDependencyCollector.transformTime=1274206}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.0.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.0.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.0.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:3.0.0:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (f) reportDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\maven-status
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\rebel.xml
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\org.codehaus.plexus.compiler.javac.JavacCompiler6235909486747128911arguments
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\META-INF\services\java.sql.Driver
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\META-INF\services
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\META-INF
+[INFO] Deleting file C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\javac.bat
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[INFO] Deleting directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target
+[DEBUG] Skipping non-existing directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG] Skipping non-existing directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ log4jdbc-driver ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=429226, ConflictMarker.markTime=178042, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=313739, ConflictIdSorter.topsortTime=45874, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2761741, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=210948096, DefaultDependencyCollector.transformTime=3769365}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.github.marcosemiao.log4jdbc:log4jdbc-driver:0.2.1-SNAPSHOT @ C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@47747fb9
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {file.encoding.pkg=sun.io, env.PROMPT=$P$G, java.home=C:\dev\Marco\jdk1.8.0_144\jre, env.=P:=P:\, classworlds.conf=C:\dev\Marco\apache-maven-3.5.2\bin\..\bin\m2.conf, env.PCOMM_ROOT=C:\Program Files (x86)\IBM\Personal Communications\, java.endorsed.dirs=C:\dev\Marco\jdk1.8.0_144\jre\lib\endorsed, env.USERNAME=M09566, sun.os.patch.level=Service Pack 1, java.vendor.url=http://java.oracle.com/, env.INCLUDE=C:\DB29\INCLUDE;C:\DB29\LIB;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\include;C:\Program Files (x86)\IBM\WebSphere MQ\tools\cplus\include, env.COMPUTERNAME=T3767, env.=C:=C:\Perso\dev\github\log4jdbc, java.version=1.8.0_144, env.MAVEN_OPTS=-Xms32m -Xmx512m -XX:+CMSClassUnloadingEnabled, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.USERPROFILE=C:\Users\M09566, user.name=M09566, sun.io.unicode.encoding=UnicodeLittle, sun.jnu.encoding=Cp1252, java.runtime.name=Java(TM) SE Runtime Environment, env.LOCALAPPDATA=C:\Users\M09566\AppData\Local, env.WINDOWS_TRACING_LOGFILE=C:\BVTBin\Tests\installpackage\csilogfile.log, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, env.DB2INSTANCE=DB2, java.specification.name=Java Platform API Specification, env.=N:=N:\, user.timezone=Europe/Paris, env.MQ_JAVA_INSTALL_PATH=C:\Program Files (x86)\IBM\WebSphere MQ\Java, user.script=, path.separator=;, env.MAVEN_CMD_LINE_ARGS=clean install -rf :log4jdbc-driver -X -e, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 2, GenuineIntel, file.encoding=Cp1252, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -rf :log4jdbc-driver -X -e, env.NUMBER_OF_PROCESSORS=4, env.APPDATA=C:\Users\M09566\AppData\Roaming, env.MQCHLLIB=U:\DSI\MQSERIES, env.WINDIR=C:\Windows, java.io.tmpdir=C:\Users\M09566\AppData\Local\Temp\, user.language=fr, line.separator=
+, project.baseUri=file:/C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, java.vm.info=mixed mode, sun.desktop=windows, java.vm.specification.name=Java Virtual Machine Specification, env.MQ_JAVA_DATA_PATH=C:\Program Files (x86)\IBM\WebSphere MQ, release.tagNameFormat=log4jdbc-@{project.version}, env.M2_HOME=C:\dev\Marco\apache-maven-3.5.2, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.REX, env.WDIR=C:\, env.REXX_HOME=C:\Program Files\ooRexx, env.LOGONSERVER=\\T3F04, env.PSMODULEPATH=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.JAVACMD=C:\dev\Marco\jdk1.8.0_144\bin\java.exe, env.JVMCONFIG=\.mvn\jvm.config, env.PUBLIC=C:\Users\Public, env.USERDOMAIN=BDPME, env.=W:=W:\, env.MQ_FILE_PATH=C:\Program Files (x86)\IBM\WebSphere MQ, env.PROCESSOR_LEVEL=6, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.=EXITCODE=00000001, maven.build.timestamp=2017-12-01T09:42:44Z, env.CLASSPATH=C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib\com.ibm.mqjms.jar;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib\com.ibm.mq.jar;.;C:\DB29\java\db2java.zip;C:\DB29\java\db2jcc.jar;C:\DB29\java\sqlj.zip;C:\DB29\java\db2jcc_license_cu.jar;C:\DB29\bin;C:\DB29\java\common.jar, os.name=Windows 7, java.specification.vendor=Oracle Corporation, env.TMP=C:\Users\M09566\AppData\Local\Temp, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.OS=Windows_NT, java.library.path=C:\dev\Marco\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\dev\Marco\jdk1.8.0_144\bin;C:\dev\Marco\apache-maven-3.5.2\bin;C:\Perso\dev\tools;C:\ProgramData\Oracle\Java\javapath;C:\Oracle\Ora11\bin;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib;C:\PROGRA~2\FileNET\IDM;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ooRexx;C:\Reseau\Utils;U:\Natsys;C:\DB29\BIN;C:\DB29\FUNCTION;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Perso\dev\tools;C:\Users\M09566\AppData\Local\Programs\Git\cmd;C:\Users\M09566\AppData\Local\Programs\Git\mingw64\bin;C:\Users\M09566\AppData\Local\Programs\Git\usr\bin;., env.PROGRAMW6432=C:\Program Files, env.PATH=C:\dev\Marco\jdk1.8.0_144\bin;C:\dev\Marco\apache-maven-3.5.2\bin;C:\Perso\dev\tools;C:\ProgramData\Oracle\Java\javapath;C:\Oracle\Ora11\bin;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib;C:\PROGRA~2\FileNET\IDM;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ooRexx;C:\Reseau\Utils;U:\Natsys;C:\DB29\BIN;C:\DB29\FUNCTION;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;C:\Perso\dev\tools;C:\Users\M09566\AppData\Local\Programs\Git\cmd;C:\Users\M09566\AppData\Local\Programs\Git\mingw64\bin;C:\Users\M09566\AppData\Local\Programs\Git\usr\bin, library.jansi.path=C:\dev\Marco\apache-maven-3.5.2\bin\..\lib\jansi-native, java.class.version=52.0, env.=V:=V:\, maven.multiModuleProjectDirectory=C:\Perso\dev\github\log4jdbc, env.TISDIR=C:\Windows\system32\drivers\etc\Tivoli, env.HOMEDRIVE=C:, env.SYSTEMROOT=C:\Windows, maven.compiler.testTarget=1.8, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.boot.library.path=C:\dev\Marco\jdk1.8.0_144\jre\bin, project.build.sourceEncoding=UTF-8, env.SYSTEMDRIVE=C:, env.PROCESSOR_REVISION=2502, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, user.variant=, env.=U:=U:\, maven.compiler.testSource=1.8, env.PROGRAMFILES=C:\Program Files, java.vm.specification.version=1.8, env.PROGRAMDATA=C:\ProgramData, env.NLSPATH="C:\Tivoli\Desktop\msg_cat\%L\%N.cat", awt.toolkit=sun.awt.windows.WToolkit, env.MAVEN_HOME=C:\dev\Marco\apache-maven-3.5.2\bin\.., sun.cpu.isalist=amd64, sun.stderr.encoding=cp850, env.MAVEN_PROJECTBASEDIR=C:\Perso\dev\github\log4jdbc, env.=T:=T:\, java.ext.dirs=C:\dev\Marco\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, os.version=6.1, env.ERROR_CODE=0, user.home=C:\Users\M09566, java.vm.vendor=Oracle Corporation, env.USERDNSDOMAIN=CEPME150.FR, env.JAVA_HOME=C:\dev\Marco\jdk1.8.0_144, user.dir=C:\Perso\dev\github\log4jdbc, maven.conf=C:\dev\Marco\apache-maven-3.5.2\bin\../conf, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.FP_NO_HOST_CHECK=NO, sun.cpu.endian=little, env.=S:=S:\, env.ALLUSERSPROFILE=C:\ProgramData, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.version=25.144-b01, java.class.path=C:\dev\Marco\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar, env.=::=::\, org.slf4j.simpleLogger.defaultLogLevel=debug, env.HOMEPATH=\Users\M09566, env.EXEC_DIR=C:\Perso\dev\github\log4jdbc, os.arch=amd64, maven.build.version=Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T09:58:13+02:00), env.SESSIONNAME=Console, env.WINDOWS_TRACING_FLAGS=3, env.MQCHLTAB=AMQCLCHL.TAB, sun.java.launcher=SUN_STANDARD, java.vm.specification.vendor=Oracle Corporation, env.=R:=R:\, file.separator=\, java.runtime.version=1.8.0_144-b01, sun.boot.class.path=C:\dev\Marco\jdk1.8.0_144\jre\lib\resources.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\rt.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\jsse.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\jce.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\charsets.jar;C:\dev\Marco\jdk1.8.0_144\jre\lib\jfr.jar;C:\dev\Marco\jdk1.8.0_144\jre\classes, maven.version=3.5.2, env.TEMP=C:\Users\M09566\AppData\Local\Temp, user.country=FR, maven.home=C:\dev\Marco\apache-maven-3.5.2\bin\.., maven.compiler.target=1.3, env.LIB=;C:\DB29\LIB;C:\Program Files (x86)\IBM\WebSphere MQ\tools\lib64, java.vendor=Oracle Corporation, env.CLASSWORLDS_JAR="C:\dev\Marco\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar", env.TOOLS_HOME=C:\Perso\dev\tools, maven.compiler.source=1.3, java.specification.version=1.8, sun.arch.data.model=64}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] Copying file META-INF\services\java.sql.Driver
+[DEBUG] file java.sql.Driver has a filtered file extension
+[DEBUG] copy C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\resources\META-INF\services\java.sql.Driver to C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes\META-INF\services\java.sql.Driver
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- jrebel-maven-plugin:1.1.7:generate (default) @ log4jdbc-driver ---
+[DEBUG] Using mirror UK (http://uk.maven.org/maven2) for central (http://repo1.maven.org/maven2).
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=537655, ConflictMarker.markTime=186704, ConflictMarker.nodeCount=86, ConflictIdSorter.graphTime=182533, ConflictIdSorter.topsortTime=48441, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2487781, ConflictResolver.conflictItemCount=79, DefaultDependencyCollector.collectTime=123766696, DefaultDependencyCollector.transformTime=3478081}
+[DEBUG] org.zeroturnaround:jrebel-maven-plugin:jar:1.1.7:
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    commons-io:commons-io:jar:1.4:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.4:compile
+[DEBUG] Created new class realm plugin>org.zeroturnaround:jrebel-maven-plugin:1.1.7
+[DEBUG] Importing foreign packages into class realm plugin>org.zeroturnaround:jrebel-maven-plugin:1.1.7
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.zeroturnaround:jrebel-maven-plugin:1.1.7
+[DEBUG]   Included: org.zeroturnaround:jrebel-maven-plugin:jar:1.1.7
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: commons-io:commons-io:jar:1.4
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.4
+[DEBUG] Configuring mojo org.zeroturnaround:jrebel-maven-plugin:1.1.7:generate from plugin realm ClassRealm[plugin>org.zeroturnaround:jrebel-maven-plugin:1.1.7, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.zeroturnaround:jrebel-maven-plugin:1.1.7:generate' with basic configurator -->
+[DEBUG]   (f) addResourcesDirToRebelXml = false
+[DEBUG]   (f) alwaysGenerate = false
+[DEBUG]   (f) classesDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (f) execution = org.zeroturnaround:jrebel-maven-plugin:1.1.7:generate {execution: default}
+[DEBUG]   (f) generateDefaultClasspath = true
+[DEBUG]   (f) generateDefaultElements = true
+[DEBUG]   (f) generateDefaultWeb = true
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (s) project = MavenProject: com.github.marcosemiao.log4jdbc:log4jdbc-driver:0.2.1-SNAPSHOT @ C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\pom.xml
+[DEBUG]   (f) rebelXmlDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (s) relativePath = .
+[DEBUG]   (s) rootPath = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver
+[DEBUG]   (f) showGenerated = false
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) warSourceDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\webapp
+[DEBUG]   (f) webappDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\log4jdbc-driver-0.2.1-SNAPSHOT
+[DEBUG] -- end configuration --
+[INFO] Processing com.github.marcosemiao.log4jdbc:log4jdbc-driver with packaging jar
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ log4jdbc-driver ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=546317, ConflictMarker.markTime=150775, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=233220, ConflictIdSorter.topsortTime=106825, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3890627, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=418537769, DefaultDependencyCollector.transformTime=4965937}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.2:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.0_BETA:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.1.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.2
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.0_BETA
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0, parent: sun.misc.Launcher$AppClassLoader@5c647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver
+[DEBUG]   (f) buildDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target
+[DEBUG]   (f) compilePath = [C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes, C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-api\0.2.1-SNAPSHOT\log4jdbc-api-0.2.1-SNAPSHOT.jar, C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons-api\0.2.1-SNAPSHOT\log4jdbc-commons-api-0.2.1-SNAPSHOT.jar, C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl\0.2.1-SNAPSHOT\log4jdbc-impl-0.2.1-SNAPSHOT.jar, C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl-format-query\0.2.1-SNAPSHOT\log4jdbc-impl-format-query-0.2.1-SNAPSHOT.jar, C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons\0.2.1-SNAPSHOT\log4jdbc-commons-0.2.1-SNAPSHOT.jar, C:\dev\repository\com\github\marcosemiao\util\service-provider\1.0.0\service-provider-1.0.0.jar, C:\dev\repository\com\github\marcosemiao\extend-lang\0.0.1\extend-lang-0.0.1.jar, C:\dev\repository\javax\transaction\jta\1.1\jta-1.1.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java]
+[DEBUG]   (f) compilerArguments = {bootclasspath=C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-dummy\0.2.1-SNAPSHOT\log4jdbc-dummy-0.2.1-SNAPSHOT.jar}
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) compilerVersion = 1.3
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) executable = C:\Perso\dev\jdk1.3\bin\javac.exe
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = true
+[DEBUG]   (f) generatedSourcesDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = true
+[DEBUG]   (f) outputDirectory = C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.github.marcosemiao.log4jdbc:log4jdbc-driver:0.2.1-SNAPSHOT @ C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\pom.xml
+[DEBUG]   (f) projectArtifact = com.github.marcosemiao.log4jdbc:log4jdbc-driver:jar:0.2.1-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@47747fb9
+[DEBUG]   (f) showDeprecation = true
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.3
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.3
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = true
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\generated-sources\annotations to compile source roots:
+  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java
+[DEBUG] New compile source roots:
+  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java
+  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\generated-sources\annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\AbstractRewriteDataSource.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\ConnectionDecorator.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\StatementOperation.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\Log4JdbcInvocationHandler.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\TraceTimeInvocationOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\AbstractDataSource.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\xa\operation\XAResourceOperation.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\ConnectionOperation.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\Log4JdbcProxy.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\Test.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\Log4JdbcProxyXA.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\XAConnectionDecorator.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\Driver.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\ConnectionPoolDataSource.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\PreparedStatementOperation.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\ConnectionOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\ResultSetOperation.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\PreparedStatementOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\StatementOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\XADataSource.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\ResultSetOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\DataSource.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\xa\operation\factory\XAResourceOperationFactory.java
+[DEBUG] Stale source detected: C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\Log4JdbcOperation.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-api\0.2.1-SNAPSHOT\log4jdbc-api-0.2.1-SNAPSHOT.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons-api\0.2.1-SNAPSHOT\log4jdbc-commons-api-0.2.1-SNAPSHOT.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl\0.2.1-SNAPSHOT\log4jdbc-impl-0.2.1-SNAPSHOT.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl-format-query\0.2.1-SNAPSHOT\log4jdbc-impl-format-query-0.2.1-SNAPSHOT.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons\0.2.1-SNAPSHOT\log4jdbc-commons-0.2.1-SNAPSHOT.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\util\service-provider\1.0.0\service-provider-1.0.0.jar
+[DEBUG]  C:\dev\repository\com\github\marcosemiao\extend-lang\0.0.1\extend-lang-0.0.1.jar
+[DEBUG]  C:\dev\repository\javax\transaction\jta\1.1\jta-1.1.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java
+[DEBUG]  C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\generated-sources\annotations
+[DEBUG] Excutable: 
+[DEBUG]  C:\Perso\dev\jdk1.3\bin\javac.exe
+[DEBUG] Command line options:
+[DEBUG] -d C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes -classpath C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes;C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-api\0.2.1-SNAPSHOT\log4jdbc-api-0.2.1-SNAPSHOT.jar;C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons-api\0.2.1-SNAPSHOT\log4jdbc-commons-api-0.2.1-SNAPSHOT.jar;C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl\0.2.1-SNAPSHOT\log4jdbc-impl-0.2.1-SNAPSHOT.jar;C:\dev\repository\com\github\marcosemiao\log4jdbc\log4jdbc-impl-format-query\0.2.1-SNAPSHOT\log4jdbc-impl-format-query-0.2.1-SNAPSHOT.jar;C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-commons\0.2.1-SNAPSHOT\log4jdbc-commons-0.2.1-SNAPSHOT.jar;C:\dev\repository\com\github\marcosemiao\util\service-provider\1.0.0\service-provider-1.0.0.jar;C:\dev\repository\com\github\marcosemiao\extend-lang\0.0.1\extend-lang-0.0.1.jar;C:\dev\repository\javax\transaction\jta\1.1\jta-1.1.jar; -sourcepath C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java;C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\generated-sources\annotations; C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\xa\operation\factory\XAResourceOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\ConnectionDecorator.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\Log4JdbcProxyXA.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\DataSource.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\Driver.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\Log4JdbcOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\TraceTimeInvocationOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\xa\operation\XAResourceOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\ResultSetOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\PreparedStatementOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\StatementOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\AbstractRewriteDataSource.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\Log4JdbcProxy.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\XAConnectionDecorator.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\ConnectionOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\ConnectionPoolDataSource.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\StatementOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\datasource\AbstractDataSource.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\handler\Log4JdbcInvocationHandler.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\XADataSource.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\ResultSetOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\PreparedStatementOperation.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\fr\ms\log4jdbc\proxy\jdbc\operation\factory\ConnectionOperationFactory.java C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\src\main\java\Test.java -O -g -verbose -deprecation -target 1.3 -bootclasspath C:\dev\repository\com\github\marcosemiao\log4jdbc\utils\log4jdbc-dummy\0.2.1-SNAPSHOT\log4jdbc-dummy-0.2.1-SNAPSHOT.jar
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 24 source files to C:\Perso\dev\github\log4jdbc\core\log4jdbc-driver\target\classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/xa/operation/factory/XAResourceOperationFactory.java]
+[INFO] [parsing completed 26ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/datasource/ConnectionDecorator.java]
+[INFO] [parsing completed 2ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/Log4JdbcProxyXA.java]
+[INFO] [parsing completed 0ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/DataSource.java]
+[INFO] [parsing completed 4ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/Driver.java]
+[INFO] [parsing completed 3ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/handler/Log4JdbcOperation.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/handler/TraceTimeInvocationOperationFactory.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/xa/operation/XAResourceOperation.java]
+[INFO] [parsing completed 4ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/factory/ResultSetOperationFactory.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/factory/PreparedStatementOperationFactory.java]
+[INFO] [parsing completed 0ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/StatementOperation.java]
+[INFO] [parsing completed 2ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/datasource/AbstractRewriteDataSource.java]
+[INFO] [parsing completed 4ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/Log4JdbcProxy.java]
+[INFO] [parsing completed 2ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/datasource/XAConnectionDecorator.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/ConnectionOperation.java]
+[INFO] [parsing completed 3ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/ConnectionPoolDataSource.java]
+[INFO] [parsing completed 2ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/factory/StatementOperationFactory.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/datasource/AbstractDataSource.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/handler/Log4JdbcInvocationHandler.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/XADataSource.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/ResultSetOperation.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/PreparedStatementOperation.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/fr/ms/log4jdbc/proxy/jdbc/operation/factory/ConnectionOperationFactory.java]
+[INFO] [parsing completed 1ms]
+[INFO] [parsing started C:/Perso/dev/github/log4jdbc/core/log4jdbc-driver/src/main/java/Test.java]
+[INFO] [parsing completed 1ms]
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Log4Jdbc Core Driver ............................... FAILURE [  2.710 s]
+[INFO] Log4Jdbc Core Utils Dummy .......................... SKIPPED
+[INFO] Log4Jdbc Core Utils ................................ SKIPPED
+[INFO] Log4Jdbc Core ...................................... SKIPPED
+[INFO] Log4Jdbc Modules Logger File Core .................. SKIPPED
+[INFO] Log4Jdbc Modules Logger File Default ............... SKIPPED
+[INFO] Log4Jdbc Modules Logger File StackTrace ............ SKIPPED
+[INFO] Log4Jdbc Extended Remote Marshaller ................ SKIPPED
+[INFO] Log4Jdbc Modules Logger File Remote ................ SKIPPED
+[INFO] Log4Jdbc Modules Logger File Extra ................. SKIPPED
+[INFO] Log4Jdbc Modules Logger File ....................... SKIPPED
+[INFO] Log4Jdbc Modules ................................... SKIPPED
+[INFO] Log4Jdbc Modules Logger ............................ SKIPPED
+[INFO] Log4Jdbc Modules Rdbms Standard .................... SKIPPED
+[INFO] Log4Jdbc Modules Rdbms ............................. SKIPPED
+[INFO] Log4Jdbc Package Log4Jdbc .......................... SKIPPED
+[INFO] Log4Jdbc Package Log4Jdbc File ..................... SKIPPED
+[INFO] Log4Jdbc Package Log4Jdbc File Extra ............... SKIPPED
+[INFO] Log4Jdbc Package ................................... SKIPPED
+[INFO] Log4Jdbc Extended .................................. SKIPPED
+[INFO] Log4Jdbc Root ...................................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.259 s
+[INFO] Finished at: 2017-12-01T10:42:46+01:00
+[INFO] Final Memory: 15M/135M
+[INFO] ------------------------------------------------------------------------
+[WARNING] The requested profile "development" could not be activated because it does not exist.
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project log4jdbc-driver: Compilation failure -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project log4jdbc-driver: Compilation failure
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:213)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:51)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:309)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:194)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:107)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:955)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:1165)
+    at org.apache.maven.plugin.compiler.CompilerMojo.execute (CompilerMojo.java:168)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:134)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:208)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:154)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:146)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:51)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:309)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:194)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:107)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:955)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:290)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:194)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:289)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:229)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:415)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:356)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
